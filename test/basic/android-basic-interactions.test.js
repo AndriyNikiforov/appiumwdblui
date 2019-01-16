@@ -3,7 +3,7 @@
 import wd from 'wd';
 import chai from 'chai';
 import { androidCaps, serverConfig } from '../helpers/caps';
-const {assert} = chai;
+const { assert } = chai;
 
 let driver;
 
