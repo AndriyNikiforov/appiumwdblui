@@ -1,5 +1,6 @@
-import path from 'path';
+'use strict';
 
+import path from 'path';
 
 const githubAssetBase = 'http://appium.github.io/appium/assets';
 const localAssetBase = path.resolve(__dirname, '..', '..', '..', 'apps');

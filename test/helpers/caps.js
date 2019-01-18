@@ -3,7 +3,7 @@
 const DEFAULT_ANDROID_DEVICE_NAME = process.env.SAUCE
   ? 'Android GoogleAPI Emulator'
   : 'My Android Device';
-  
+
 const DEFAULT_ANDROID_PLATFORM_VERSION = '7.1';
 
 const androidCaps = {
@@ -12,7 +12,7 @@ const androidCaps = {
   deviceName: process.env.ANDROID_DEVICE_NAME || DEFAULT_ANDROID_DEVICE_NAME,
   platformVersion:
     process.env.ANDROID_PLATFORM_VERSION || DEFAULT_ANDROID_PLATFORM_VERSION,
-  app: undefined // Will be added in tests
+  app: undefined 
 };
 
 const serverConfig = process.env.SAUCE_LABS ? {
